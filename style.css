@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Proxima Nova";
+    src: url("./font/proximanova_regular.ttf");
+}
+
+body {
+    font-family: "Proxima Nova", sans-serif;
+    background-color: #162831;
+    width: 1296px;
+    margin: auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "El Messiri", sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0;
+}
+
+nav ul {
+    display: flex;
+    gap: 50px;
+}
+
+nav ul a {
+    color: #FFFFFF;
+    font-size: 14px;
+}
+nav ul a:hover{
+    text-decoration: underline;
+}
+header button {
+    background-color: #018ABE;
+    border-radius: 3px;
+    padding: 9px 15px;
+    border: none;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+header button:hover {
+    transition: filter .1s linear;
+    filter: brightness(110%);
+}
+
+main {
+    margin-top: 20px;
+}
+
+.firstscreen {
+    height: 600px;
+    background: url(./img/glavnakatija.svg);
+    background-size: cover;
+    background-blend-mode: lighten;
+    background-color: #98C9DC80;
+    background-position: 0 -140px;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 136px;
+    color: #FFFFFF;
+}
+
+.firstscreen h2{
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+.firstscreen h2::before{
+    contentr: url("./img/strlochka.svg");
+}
+.firstscreen h2::after{
+    content: url("./img/strlochka.svg");
+    display: inline-block;
+    transform: scaleX(-1, 1);
+    margin-left: 66px;
+}
+.firstscreen h1{
+    font-size: 64px;
+    font-weight: 700px;
+    line-height: 90px;
+}
