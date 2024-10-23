@@ -80,7 +80,7 @@ main {
 }
 
 .firstscreen h2::before{
-    contentr: url("./img/strlochka.svg");
+    content: url("./img/strlochka.svg");
 }
 .firstscreen h2::after{
     content: url("./img/strlochka.svg");
