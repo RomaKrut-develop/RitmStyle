@@ -57,7 +57,7 @@ header button:hover {
 }
 
 main {
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 .firstscreen {
@@ -86,10 +86,47 @@ main {
     content: url("./img/strlochka.svg");
     display: inline-block;
     transform: scaleX(-1, 1);
-    margin-left: 66px;
+    margin-left: 6px;
 }
 .firstscreen h1{
     font-size: 64px;
     font-weight: 700px;
     line-height: 90px;
 }
+
+.secondscreen {
+    height: 400px;
+    width: 400px;
+    background: url(./img/kupanie.svg);
+    background-size: cover;
+    background-blend-mode: lighten;
+    background-color: #98C9DC80;
+    background-position: 0 -10px;
+    border-radius: 10px;
+    margin-top: 60px;
+    color: #FFFFFF;
+    background-repeat: no-repeat;
+}
+
+.textscreen {
+    padding: 150px;
+    font-size: 30px;
+}
+ h2{
+    font-size: 64px;
+    text-align: center;
+    margin-top: 100px;
+    font-weight: 700px;
+    line-height: 90px;
+    color: #FFFFFF;
+}
+
+h2::before{
+    content: url("./img/strlochka.svg");
+}
+
+h2::after{
+    content: url("./img/strlochka.svg");
+    display: inline-block;
+    transform: scaleX(-1, 1);
+    margin-left: 6px;}
