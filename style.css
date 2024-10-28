@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     list-style: none;
@@ -18,11 +18,16 @@ body {
     margin: auto;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: "El Messiri", sans-serif;
 }
 
-header{
+header {
     display: flex;
     justify-content: space-between;
     padding: 30px 0;
@@ -37,9 +42,11 @@ nav ul a {
     color: #FFFFFF;
     font-size: 14px;
 }
-nav ul a:hover{
+
+nav ul a:hover {
     text-decoration: underline;
 }
+
 header button {
     background-color: #018ABE;
     border-radius: 3px;
@@ -73,29 +80,31 @@ main {
     color: #FFFFFF;
 }
 
-.firstscreen h2{
+.firstscreen h2 {
     font-size: 24px;
     font-weight: 700;
     margin-bottom: 40px;
 }
 
-.firstscreen h2::before{
+.firstscreen h2::before {
     content: url("./img/strlochka.svg");
 }
-.firstscreen h2::after{
+
+.firstscreen h2::after {
     content: url("./img/strlochka.svg");
     display: inline-block;
     transform: scaleX(-1, 1);
     margin-left: 6px;
 }
-.firstscreen h1{
+
+.firstscreen h1 {
     font-size: 64px;
     font-weight: 700px;
     line-height: 90px;
 }
 
 .secondscreen {
-    height: 400px;
+    height: 530px;
     width: 400px;
     background: url(./img/kupanie.svg);
     background-size: cover;
@@ -112,7 +121,8 @@ main {
     padding: 150px;
     font-size: 30px;
 }
- h2{
+
+h2 {
     font-size: 64px;
     text-align: center;
     margin-top: 100px;
@@ -121,12 +131,101 @@ main {
     color: #FFFFFF;
 }
 
-h2::before{
+h2::before {
     content: url("./img/strlochka.svg");
 }
 
-h2::after{
+h2::after {
     content: url("./img/strlochka.svg");
     display: inline-block;
     transform: scaleX(-1, 1);
-    margin-left: 6px;}
+    margin-left: 6px;
+}
+
+.thirdthscreen {
+    height: 260px;
+    width: 400px;
+    background: url(./img/kupanie.svg);
+    background-size: cover;
+    background-blend-mode: lighten;
+    background-color: #98C9DC80;
+    background-position: 0 -10px;
+    border-radius: 10px;
+    color: #FFFFFF;
+    background-repeat: no-repeat;
+    display: grid;
+    grid-template-columns: auto;
+    margin-left: 410px;
+    margin-top: -530px;
+}
+
+.textscreen2 {
+    padding: 150px;
+    font-size: 30px;
+}
+
+.fourthscreen {
+    height: 260px;
+    width: 400px;
+    background: url(./img/kupanie.svg);
+    background-size: cover;
+    background-blend-mode: lighten;
+    background-color: #98C9DC80;
+    background-position: 0 -10px;
+    border-radius: 10px;
+    color: #FFFFFF;
+    background-repeat: no-repeat;
+    display: grid;
+    grid-template-columns: auto;
+    margin-left: 410px;
+    margin-top: 10px;
+}
+
+.textscreen3 {
+    padding: 150px;
+    font-size: 30px;
+}
+
+.fivethscreen {
+    height: 260px;
+    width: 400px;
+    background: url(./img/kupanie.svg);
+    background-size: cover;
+    background-blend-mode: lighten;
+    background-color: #98C9DC80;
+    background-position: 0 -10px;
+    border-radius: 10px;
+    color: #FFFFFF;
+    background-repeat: no-repeat;
+    display: grid;
+    grid-template-columns: auto;
+    margin-left: 820px;
+    margin-top: -530px;
+}
+
+.textscreen4 {
+    padding: 150px;
+    font-size: 21px;
+}
+
+.sixthscreen {
+    height: 260px;
+    width: 400px;
+    background: url(./img/kupanie.svg);
+    background-size: cover;
+    background-blend-mode: lighten;
+    background-color: #98C9DC80;
+    background-position: 0 -10px;
+    border-radius: 10px;
+    color: #FFFFFF;
+    background-repeat: no-repeat;
+    display: grid;
+    grid-template-columns: auto;
+    margin-left: 820px;
+    margin-top: 10px;
+}
+
+.textscreen5 {
+    padding: 150px;
+    font-size: 20px;
+}
